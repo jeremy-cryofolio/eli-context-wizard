@@ -20,7 +20,7 @@ import { useScreenerContext } from "@/providers/ScreenerProvider";
 import Redirect from "@/components/Redirect";
 import { cn } from "@/lib/utils";
 
-export const Step2Schema = z.object({
+const Step2Schema = z.object({
   propertyType: z.enum(["singleFamily", "multiFamily"]),
   additionalInfo: z.string().optional(),
 });

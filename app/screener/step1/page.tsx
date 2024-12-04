@@ -17,7 +17,7 @@ import { useScreenerContext } from "@/providers/ScreenerProvider";
 import { z } from "zod";
 import { cn } from "@/lib/utils";
 
-export const Step1Schema = z.object({
+const Step1Schema = z.object({
   firstName: z.string().min(1, { message: "First name is required" }),
   lastName: z.string().min(1, { message: "Last name is required" }),
   addressLine1: z.string().min(1, { message: "Address line 1 is required" }),
