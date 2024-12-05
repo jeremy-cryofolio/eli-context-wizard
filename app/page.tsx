@@ -8,12 +8,12 @@ const Home = () => {
   const router = useRouter();
 
   return (
-    <main className="motion-preset-pop flex flex-col items-center justify-center gap-8 motion-duration-300">
+    <div className="motion-preset-pop flex flex-col items-center justify-center gap-8 motion-duration-300">
       <Logo />
       <Button onClick={() => router.push("/screener")}>
         Context Wizard Demo
       </Button>
-    </main>
+    </div>
   );
 };
 
