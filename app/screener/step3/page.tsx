@@ -32,7 +32,7 @@ const Step3Page = () => {
   }
 
   return (
-    <Card className="motion-preset-blur-down w-96 motion-duration-300">
+    <Card className="motion-preset-blur-down motion-duration-300 w-96">
       <CardHeader>
         <CardTitle>Summary</CardTitle>
         <CardDescription>Step 3 of 3</CardDescription>
