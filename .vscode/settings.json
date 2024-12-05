@@ -1,0 +1,34 @@
+{
+  // TypeScript
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // Tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // SVG
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+
+  // Markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.wordWrap": "off"
+  },
+  "markdown.extension.completion.enabled": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.toc.omittedFromToc": {
+    "README.md": ["## Table of Contents"]
+  },
+
+  // Editor & Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.useTabStops": false,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true
+}
