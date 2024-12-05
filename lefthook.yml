@@ -1,0 +1,8 @@
+pre-commit:
+  commands:
+    lint:
+      run: bunx eslint . --report-unused-disable-directives --max-warnings 0 --fix
+      stage_fixed: true
+    format:
+      run: bunx prettier --write .
+      stage_fixed: true
